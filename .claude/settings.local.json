@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(npm install:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(curl -s -X POST http://localhost:3333/api/draft -H \"Content-Type: application/json\" -d '{\"\"\"\"account\"\"\"\":{\"\"\"\"name\"\"\"\":\"\"\"\"Test\"\"\"\",\"\"\"\"company\"\"\"\":\"\"\"\"TestCo\"\"\"\",\"\"\"\"email\"\"\"\":\"\"\"\"test@test.com\"\"\"\",\"\"\"\"accountManager\"\"\"\":\"\"\"\"Alice\"\"\"\"},\"\"\"\"accountRisk\"\"\"\":{\"\"\"\"signals\"\"\"\":[]}}')",
+      "Bash(curl:*)",
+      "Bash(node -e \"const a = require\\(''''@anthropic-ai/sdk''''\\); console.log\\(a.default?.VERSION ?? ''''no version''''\\)\")",
+      "Bash(npx tsx:*)",
+      "Bash(grep -r mcp /Users/ikdikd/Downloads/Vigil/node_modules/@anthropic-ai/sdk/src/ --include=*.ts -l)"
+    ]
+  }
+}
